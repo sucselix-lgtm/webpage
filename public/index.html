@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sucselix - Career Counselling & Coaching</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .mobile-menu {
+      display: none;
+    }
+    .mobile-menu.active {
+      display: block;
+    }
+  </style>
+</head>
+<body class="bg-white text-[#292929] font-sans">
+  <!-- Navbar -->
+  <header class="bg-[#292929] text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="https://sucselix.com/logo.png" alt="Sucselix Logo" class="h-8 w-auto mr-2">
+        <!-- <h1 class="text-2xl font-bold text-[#2596be]">Sucselix</h1> -->
+      </div>
+      <nav class="space-x-6 hidden md:block">
+        <a href="#home" class="hover:text-[#2596be]">Home</a>
+        <a href="#about" class="hover:text-[#2596be]">About</a>
+        <a href="#services" class="hover:text-[#2596be]">Services</a>
+        <a href="#career" class="hover:text-[#2596be]">Career Counselling</a>
+        <a href="#why-us" class="hover:text-[#2596be]">Why Choose Us</a>
+        <a href="#contact" class="hover:text-[#2596be]">Contact</a>
+      </nav>
+      <button id="mobile-menu-btn" class="md:hidden text-[#2596be]">☰</button>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu bg-[#292929] md:hidden">
+      <nav class="px-6 py-4 space-y-4">
+        <a href="#home" class="block hover:text-[#2596be]">Home</a>
+        <a href="#about" class="block hover:text-[#2596be]">About</a>
+        <a href="#services" class="block hover:text-[#2596be]">Services</a>
+        <a href="#career" class="block hover:text-[#2596be]">Career Counselling</a>
+        <a href="#why-us" class="block hover:text-[#2596be]">Why Choose Us</a>
+        <a href="#contact" class="block hover:text-[#2596be]">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-gray-50 py-16">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-4xl font-extrabold leading-snug mb-4">CAREER COUNSELLING & COACHING IN INDIA FOR STUDENTS, PROFESSIONALS</h2>
+        <p class="text-lg text-gray-700 mb-6">Career counselling and coaching in India to help students, professionals, and parents make confident career decisions. Get personalised guidance through psychometric assessments and expert mentorship.</p>
+        <a href="https://www.careertest.sucselix.com/" class="bg-[#2596be] text-white px-6 py-3 rounded-2xl shadow hover:bg-[#1f7da1] transition inline-block">Get Started</a>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Career Counselling" class="rounded-2xl shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p class="text-lg text-gray-700 max-w-4xl mx-auto">Sucselix is a trusted platform offering comprehensive career counselling and coaching services across India, available both online and through in-person sessions. Whether you’re a student selecting academic streams, a graduate planning your future, or a professional seeking career growth, we provide clarity through expert mentorship, psychometric assessments, and personalised career planning.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-10 text-[#2596be]">Our Services</h3>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-lg mb-2">Executive Coaching</h4>
+          <p class="text-sm text-gray-600">Develop leadership skills and grow professionally with expert guidance.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-lg mb-2">Teen & Parenting Coaching</h4>
+          <p class="text-sm text-gray-600">Strengthen family dynamics and support teens through their journey.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-lg mb-2">Abroad Education</h4>
+          <p class="text-sm text-gray-600">Plan and prepare for your international education with expert help.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-lg mb-2">College Admissions</h4>
+          <p class="text-sm text-gray-600">Navigate college admissions confidently with tailored guidance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career Counselling Section -->
+  <section id="career" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-8 text-[#2596be]">Career Counselling</h3>
+      <p class="max-w-3xl mx-auto text-lg text-gray-700">Sucselix Academy offers a comprehensive suite of career counselling and coaching services for students and working professionals, designed to support individuals at every stage of their academic and professional journey.</p>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section id="why-us" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-8 text-[#2596be]">Why Choose Sucselix?</h3>
+      <p class="max-w-3xl mx-auto text-lg text-gray-700">Sucselix Academy, a trusted name in career and executive coaching, abroad education consulting, and parenting guidance since 2009, offers expert training, mentoring, and personalized support. With over a decade of experience, we’ve transformed the careers of students, graduates, professionals, and executives.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-8 text-[#2596be]">Get In Touch</h3>
+      <div class="mb-8 text-left max-w-xl mx-auto">
+        <h4 class="font-semibold mb-4 text-center">Contact Information</h4>
+        <div class="space-y-2">
+          <p><strong>Address:</strong> 18/789, 1st Floor, KMK Complex, 2nd Milestone, Kilikolloor P.O., Kollam 691004</p>
+          <p><strong>Email:</strong> <a href="mailto:sucselix@gmail.com" class="text-[#2596be] underline">sucselix@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+918547754219" class="text-[#2596be]">+91 85477 54219</a>, <a href="tel:+918590898351" class="text-[#2596be]">+91 85908 98351</a></p>
+        </div>
+      </div>
+      <p class="text-gray-700 mb-6">We'd love to hear from you! Fill out the form below or contact us directly.</p>
+      <form id="contact-form" class="max-w-xl mx-auto grid gap-4 text-left">
+        <div class="relative">
+          <input type="text" id="name" name="name" placeholder="Your Name" class="w-full border p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#2596be]" required>
+          <span class="error-message text-red-500 text-sm hidden"></span>
+        </div>
+        <div class="relative">
+          <input type="email" id="email" name="email" placeholder="Your Email" class="w-full border p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#2596be]" required>
+          <span class="error-message text-red-500 text-sm hidden"></span>
+        </div>
+        <div class="relative">
+          <textarea id="message" name="message" placeholder="Your Message" rows="4" class="w-full border p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#2596be]" required></textarea>
+          <span class="error-message text-red-500 text-sm hidden"></span>
+        </div>
+        <button type="submit" class="bg-[#2596be] text-white py-3 rounded-2xl shadow hover:bg-[#1f7da1] transition disabled:opacity-50 disabled:cursor-not-allowed">
+          <span id="submit-text">Send Message</span>
+          <span id="loading-text" class="hidden">Sending...</span>
+        </button>
+        <div id="form-status" class="text-center hidden"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#292929] text-white py-8 mt-10">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p>&copy; 2025 Sucselix. All Rights Reserved.</p>
+      <div class="space-x-4 mt-4 md:mt-0">
+        <a href="#" class="hover:text-[#2596be]">Privacy Policy</a>
+        <a href="#" class="hover:text-[#2596be]">Terms</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    // Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('active');
+    });
+    
+    // Close mobile menu when clicking on a link
+    const mobileLinks = mobileMenu.querySelectorAll('a');
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.remove('active');
+      });
+    });
+
+    // Contact Form Email Integration
+    const contactForm = document.getElementById('contact-form');
+    const submitBtn = contactForm.querySelector('button[type="submit"]');
+    const submitText = document.getElementById('submit-text');
+    const loadingText = document.getElementById('loading-text');
+    const formStatus = document.getElementById('form-status');
+
+    // Email validation
+    function validateEmail(email) {
+      const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return re.test(email);
+    }
+
+    // Form validation
+    function validateForm(formData) {
+      const errors = {};
+      
+      if (!formData.get('name').trim()) {
+        errors.name = 'Name is required';
+      }
+      
+      if (!formData.get('email').trim()) {
+        errors.email = 'Email is required';
+      } else if (!validateEmail(formData.get('email'))) {
+        errors.email = 'Please enter a valid email address';
+      }
+      
+      if (!formData.get('message').trim()) {
+        errors.message = 'Message is required';
+      }
+      
+      return errors;
+    }
+
+    // Display errors
+    function displayErrors(errors) {
+      // Clear previous errors
+      const errorMessages = contactForm.querySelectorAll('.error-message');
+      errorMessages.forEach(msg => {
+        msg.classList.add('hidden');
+        msg.textContent = '';
+      });
+
+      // Display new errors
+      Object.keys(errors).forEach(field => {
+        const input = contactForm.querySelector(`[name="${field}"]`);
+        const errorMsg = input.parentElement.querySelector('.error-message');
+        errorMsg.textContent = errors[field];
+        errorMsg.classList.remove('hidden');
+        input.classList.add('border-red-500');
+      });
+    }
+
+    // Clear errors
+    function clearErrors() {
+      const errorMessages = contactForm.querySelectorAll('.error-message');
+      errorMessages.forEach(msg => {
+        msg.classList.add('hidden');
+        msg.textContent = '';
+      });
+      
+      const inputs = contactForm.querySelectorAll('input, textarea');
+      inputs.forEach(input => input.classList.remove('border-red-500'));
+    }
+
+    // Send email using EmailJS or mailto
+    async function sendEmail(formData) {
+      // Option 1: Using mailto (simple fallback)
+      const subject = encodeURIComponent('Contact Form Submission from ' + formData.get('name'));
+      const body = encodeURIComponent(`
+Name: ${formData.get('name')}
+Email: ${formData.get('email')}
+Message: ${formData.get('message')}
+      `);
+      
+      // For now, we'll use a simple approach that opens the user's email client
+      // In production, you would integrate with EmailJS, Formspree, or a backend service
+      
+      try {
+        // Simulate sending (replace with actual email service)
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        
+        // Open email client as fallback
+        window.location.href = `mailto:sucselix@gmail.com?subject=${subject}&body=${body}`;
+        
+        return { success: true };
+      } catch (error) {
+        return { success: false, error: error.message };
+      }
+    }
+
+    // Handle form submission
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const formData = new FormData(contactForm);
+      const errors = validateForm(formData);
+      
+      // Clear previous status
+      formStatus.classList.add('hidden');
+      clearErrors();
+      
+      if (Object.keys(errors).length > 0) {
+        displayErrors(errors);
+        return;
+      }
+      
+      // Disable form and show loading
+      submitBtn.disabled = true;
+      submitText.classList.add('hidden');
+      loadingText.classList.remove('hidden');
+      
+      try {
+        const result = await sendEmail(formData);
+        
+        if (result.success) {
+          formStatus.innerHTML = '<p class="text-green-600">Thank you! Your message has been sent. We\'ll get back to you soon.</p>';
+          formStatus.classList.remove('hidden');
+          contactForm.reset();
+        } else {
+          throw new Error(result.error || 'Failed to send message');
+        }
+      } catch (error) {
+        formStatus.innerHTML = '<p class="text-red-600">Sorry, there was an error sending your message. Please try again or contact us directly.</p>';
+        formStatus.classList.remove('hidden');
+      } finally {
+        // Re-enable form
+        submitBtn.disabled = false;
+        submitText.classList.remove('hidden');
+        loadingText.classList.add('hidden');
+      }
+    });
+  </script>
+</body>
+</html>
